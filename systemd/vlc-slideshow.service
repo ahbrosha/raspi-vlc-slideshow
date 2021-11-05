@@ -1,0 +1,12 @@
+[Unit]
+Description=Fullscreen VLC slideshow
+StopWhenUnneeded=yes
+
+[Service]
+Environment=DISPLAY=:0
+User=1000
+Group=100
+ExecStart=/usr/bin/vlc --fullscreen /media/
+
+[Install]
+WantedBy=default.target

@@ -1,0 +1,3 @@
+#ACTION=="mount", TAG+="systemd", ENV{SYSTEMD_WANTS}="vlc-slideshow.service"
+ACTION=="change", SUBSYSTEM=="block", TAG+="systemd", ENV{SYSTEMD_WANTS}="vlc-slideshow.service"
+
