@@ -19,6 +19,6 @@ sudo cp udev/99-vlc-slideshow.rules /etc/udev/rules.d/
 
 # Enable Desktop autologin
 # B1 cli, B2 cli autologin, B3 desktop, B4 desktop autologin
-raspi-config nonint do_boot_behaviour 
+#raspi-config nonint do_boot_behaviour 
 
 sudo reboot

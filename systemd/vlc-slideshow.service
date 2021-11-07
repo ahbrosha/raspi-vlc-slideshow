@@ -6,6 +6,7 @@ StopWhenUnneeded=yes
 Environment=DISPLAY=:0
 User=1000
 Group=100
+ExecStartPre=/bin/sleep 5
 ExecStart=/usr/bin/vlc --fullscreen /media/
 
 [Install]
